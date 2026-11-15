@@ -3,7 +3,7 @@ import { clearSession } from "../utils/auth";
 
 // Set VITE_API_URL in frontend/.env for deployment (see .env.example)
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || "http://localhost:5000/api",
+  baseURL: "https://hospital-management-system-x0qn.onrender.com/api",
   headers: {
     "Content-Type": "application/json"
   }
